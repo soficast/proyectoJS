@@ -1,0 +1,24 @@
+{
+  "name": "proyectojs",
+  "version": "1.0.0",
+  "description": "Proyecto JS a fondo: Sistema de tiquetes para solicitud de asistencia en clase.\r These owners will be the default owner for everything in the repo:\r sofiamce.129@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soficast/proyectoJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soficast/proyectoJS/issues"
+  },
+  "homepage": "https://github.com/soficast/proyectoJS#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
