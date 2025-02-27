@@ -1,3 +1,22 @@
 {
-    "users": []
+  "users": [
+    {
+      "id": "a0e5",
+      "newuser": "soso",
+      "newpsw": "12345",
+      "newemail": "sofiamce.129@gmail.com"
+    },
+    {
+      "id": "8419",
+      "newuser": "soso",
+      "newpsw": "aaaa",
+      "newemail": "smora@fwdcostarica.com"
+    },
+    {
+      "id": "7679",
+      "newuser": "ss",
+      "newpsw": "ssss",
+      "newemail": "sss"
+    }
+  ]
 }
