@@ -1,0 +1,124 @@
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #6fa46f;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #7d186a;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: whitesmoke;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        #consultaForm {
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px #0000001a;
+            width: 300px;
+            background-color: #fbc6fb;
+            margin-top: 20px;
+        }
+
+        #consultaForm h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #7d186a;
+        }
+
+        #consultaForm label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        #consultaForm input[type="text"],
+        #consultaForm textarea {
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 2px solid #7d186a;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        #consultaForm textarea {
+            resize: vertical; /* Permite redimensionar verticalmente el textarea */
+        }
+
+        #consultaForm button {
+            width: 100%;
+            padding: 12px;
+            background-color: #6055f6;
+            color: whitesmoke;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #consultaForm button:hover {
+            background-color: darkmagenta;
+        }
+
+        #listaConsultas {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px #0000001a;
+        }
+
+        #listaConsultas th,
+        #listaConsultas td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #listaConsultas th {
+            background-color: #f2f2f2;
+        }
+
+        hr {
+            width: 80%;
+            margin: 30px auto;
+            border: 1px solid #ccc;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding: 10px;
+            color: #555;
+        }
+
+    .salir {
+        margin-top: 10px;
+        width: 10%;
+        padding: 12px;
+        background-color: #6055f6;
+        color: whitesmoke;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-align: center;
+    }
+
+    .salir:hover{
+        color: #fbc6fb;
+    }

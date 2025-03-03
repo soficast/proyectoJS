@@ -3,31 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Registro</title>
     <link rel="stylesheet" href="register.css">
 </head>
 <body>
-    <h1>registrate</h1>
+    <h1>Registrate</h1>
+    <p>Si eres un nuevo estudiante, debes crear un usuario en la plataforma ingresando la siguiente información:</p>
 
-    <div id="registroContainer" class="registroContainer"></div>
-        <h2>registro</h2>
+    <div id="registroContainer" class="registroContainer"> <!--Contiene el formulario de registro-->
         
-        <label for="newuser">usuario</label>
-        <input type="text" id="newuser">
+        <label for="userName">Usuario</label>
+        <input type="text" id="userName"  placeholder="ejemplo: sofiaM">
         <br>
 
-        <label for="newemail">email</label>
-        <input type="newemail" id="newemail">
+        <label for="newEmail">Email</label>
+        <input type="email" id="newEmail" placeholder="sofiam@ejemplo.com">
         <br>
 
-        <label for="newpsw">contrasena</label>
-        <input type="password" id="newpsw">
+        <label for="psw">Contraseña</label>
+        <input type="password" id="psw" placeholder="******">
         <br>
 
-        <button id="crear" class="crear">crear</button>
+        <button id="crear" class="crear" type="submit">Crear</button>
         <br>
     </div>
 
+    <div id="mensajeRegistro"> <!--mensaje de registro exitoso al presionar Crear, redirije a la pagina de login-->
+    </div>
+
+    <hr>
+<!--footer-->
+<footer>© 2025 sosoCodes. Todos los derechos reservados.</footer>
+    
+<!--SCRIPT-->
     <script type="module" src="register.js"></script>
 </body>
 </html>

@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
+    <title>Restablecer Contraseña</title>
+    <link rel="stylesheet" href="../resetuser/reset.css">
 </head>
 <body>
-    <h1>reestablece tu contrasena</h1>
+    <div id="resetContainer" class="resetContainer"> <!--Contiene el formulario para restablecer la contrasena-->
+        <h1>Restablece tu contraseña</h1>
+
+        <label for="userName">Nombre de Usuario</label>
+        <input type="text" id="userName" placeholder="Ejemplo: sofiaM">
+        <br>
+
+        <label for="newPsw">Nueva Contraseña</label>
+        <input type="password" id="newPsw" placeholder="*****">
+        <br>
+
+        <button id="resetButton" class="resetButton">Restablecer</button>
+
+        <div id="resetMensaje"></div> <!--Muestra un mensaje de exito antes de redireccionar a pagina de login-->
+        
+        <a href="../login/login.html">Volver a Inicio de sesion</a>
+    </div>
+
+    <hr>
+    <!--footer-->
+    <footer>© 2025 sosoCodes. Todos los derechos reservados.</footer>
     
-    <script type="module" src="reset.js"></script>
+    <!--SCRIPT-->
+    <script type="module" src="../resetuser/reset.js"></script>
 </body>
 </html>

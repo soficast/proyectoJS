@@ -1,22 +1,28 @@
 {
   "users": [
     {
-      "id": "a0e5",
-      "newuser": "soso",
-      "newpsw": "12345",
-      "newemail": "sofiamce.129@gmail.com"
+      "id": "97f4",
+      "userName": "soficast",
+      "newEmail": "sofiamce.129@gmail.com",
+      "psw": "Sosoc",
+      "tipo": "admin"
     },
     {
-      "id": "8419",
-      "newuser": "soso",
-      "newpsw": "aaaa",
-      "newemail": "smora@fwdcostarica.com"
-    },
+      "id": "c51f",
+      "userName": "Kevin",
+      "newEmail": "kevin",
+      "psw": "kevin123",
+      "tipo": "estudiante"
+    }
+
+  ],
+  "consultas": [
     {
-      "id": "7679",
-      "newuser": "ss",
-      "newpsw": "ssss",
-      "newemail": "sss"
+      "id": "d365",
+      "userName": "soficast",
+      "nombreEstudiante": "Soso",
+      "consulta": "Me cuesta JS :(",
+      "horaSolicitud": "12:05:35"
     }
   ]
 }

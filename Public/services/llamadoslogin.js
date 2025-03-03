@@ -23,14 +23,12 @@ export { getUsers };
 
 //////////LLAMADO POST//////////
 
-async function postUsers(userName,newEmail,psw) {
+async function postUsers(userName,psw) {
     try {
      
         const userData = { 
             userName,
-            newEmail,
             psw,
-            tipo: "estudiante"
         
         };
 
@@ -65,8 +63,8 @@ async function updateUsers(userName,psw,id)
      
         const userData = { 
             userName,
-            newEmail,
-            psw
+            psw,
+            
         
         };
 

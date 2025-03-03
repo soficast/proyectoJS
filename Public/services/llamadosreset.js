@@ -59,15 +59,13 @@ export{postUsers}
 //////////////LLAMADO UPDATE/////////////
 
 
-async function updateUsers(userName,psw,id) 
+async function updateUsers(userName,newPsw,id) 
 {
     try {
      
         const userData = { 
             userName,
-            newEmail,
-            psw
-        
+            newPsw,
         };
 
 

@@ -1,0 +1,79 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #6fa46f;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #7d186a;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.registroContainer {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0000001a;
+    width: 300px;
+    background-color: #fbc6fb;
+    margin-top: 20px;
+}
+
+.registroContainer label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.registroContainer input[type="text"],
+.registroContainer input[type="email"],
+.registroContainer input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #7d186a;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.registroContainer button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6055f6;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registroContainer button:hover {
+    background-color: darkmagenta;
+}
+
+hr {
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #555;
+}

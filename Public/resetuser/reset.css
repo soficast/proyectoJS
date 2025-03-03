@@ -1,0 +1,88 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #6fa46f;
+    color: #333;
+}
+
+#resetContainer {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0000001a;
+    width: 300px;
+    background-color: #fbc6fb;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#resetContainer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7d186a;
+}
+
+#resetContainer label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left; /* Alinea las etiquetas a la izquierda */
+}
+
+#resetContainer input[type="text"],
+#resetContainer input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #7d186a;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#resetContainer button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6055f6;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resetContainer button:hover {
+    background-color: darkmagenta;
+}
+
+#resetMensaje {
+    margin-top: 10px;
+    color: green; /* O el color que prefieras para mensajes de éxito */
+}
+
+#resetContainer a {
+    display: block;
+    margin-top: 15px;
+    color: #6055f6;
+    text-decoration: none;
+}
+
+#resetContainer a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #555;
+}

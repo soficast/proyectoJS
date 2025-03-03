@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <h1>bienvenidas(os)</h1>
+    <h1>Bienvenidas(es/os)</h1>
 
-    <div id="loginContainer" class="loginContainer">
-        <h2>estudiante</h2>
-        <label for="user">usuario</label>
-        <input type="text" id="user">
+    <div id="loginContainer" class="loginContainer"> <!--Contiene el formularion de inicio de sesion-->
+        <label for="userName">Usuario</label>
+        <input type="text" id="userName" placeholder="Ejemplo: sofiaM">
         <br>
 
-        <label for="psw">contrasena</label>
-        <input type="password" id="psw">
+        <label for="psw">Contraseña</label>
+        <input type="password" id="psw" placeholder="******">
         <br>
 
-        <button id="entrar" class="entrar">entrar</button>
+        <button id="entrar" class="entrar" type="submit">Entrar</button>
+        <div id="mensajeError"> </div> <!--Muestra un mensaje de error si el usuario o contrasena son incorrectos-->
     </div>
+    <br>
+    <a class="links" href="../register/register.html">Registrarme</a> <!--redirije a crear un nuevo usuario-->
+    <br>
+    <a class="links" href="../resetuser/reset.html"> Olvidé mi contraseña </a> <!--redirije a Restablecer contrasena-->
 
-    <a href="../resetuser/reset.html">olvide mi contrasena</a>
-    <a href="../register/register.html">registro</a> 
+    <hr>
+    <!--footer-->
+    <footer>© 2025 sosoCodes. Todos los derechos reservados.</footer>
     
     <!--SCRIPT-->
     <script type="module" src="login.js"></script>

@@ -1,25 +1,36 @@
+<!--Esto va a funcionar como un tipo landing page. Va contener botones que
+    llevaran a la pagina de login y a la de registro y una breve descripcion del website
+    en si, de la "marca"/ plataforma de la escuela en este caso-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema de consultas</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!--Esto va a funcionar como un tipo landing page. Va contener botones que
-    llevaran a la pagina de login y a la de registro y una breve descripcion del website
-    en si, de la "marca"/ plataforma de la escuela en este caso-->
 
-    <h1>Asistencia en clase</h1>
-    <p>descripcion</p>
+    <!--Contenido principal-->
+<div class="container">
+    <h1>¿Necesitas ayuda en clase?</h1>
+    <p>Bienvenides a nuestra plataforma de consultar, ayudantía y acompañamiento para tus clases. 
+        <br>Aquí podrás gestionar tu asistencia de manera fácil y rápida.
+        <br>¡Registrate o inicia sesión para comenzar! 
+    </p>
+</div>
 
-    <a href="login/login.html">Iniciar sesion</a>
+<div class="enlaces"> <!--Contiene enlaces para iniciar sesion o registrarse-->
+    <a href="login/login.html" class="enlace">Iniciar sesión</a>
     <br>
-    <a href="register/register.html">Registrarse</a>
-
-    <footer>Costa Rica,</footer>
+    <a href="register/register.html" class="enlace">Registrarse</a>
+</div>
     
+<hr>
+<!--footer-->
+<footer>© 2025 sosoCodes. Todos los derechos reservados.</footer>
+    
+<!--SCRIPT-->
     <script type="module" src="index.js"></script>
 </body>
 </html>

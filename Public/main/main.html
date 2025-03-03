@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+    <link rel="stylesheet" href="../main/main.css">
+</head>
+<body>
+    <h1>Consultas</h1>
+    <p>Este es tu espacio para comunicar tus dudas y consultas sobre la materia y las clases. 
+        <br>Si necesitas ayuda con una situación especial puedes hacerlo por aquí también, 
+        <br>solo ingresa "Necesito ayuda especial" + tu información
+        <br>de contacto y alguien de nuestro equipo se comunicará directamente con vos.
+    </p>
+
+    <div id="consultaForm"> <!--Contiene el formulario de consultas-->
+        <h2>Agregar Nueva Consulta</h2>
+        <label for="userName"> Usuario: </label>
+        <input type="text" id="userName" placeholder=" Ejemplo: sofiaM">
+        <br>
+        <label for="nombreEstudiante"> Nombre del Estudiante: </label>
+        <input type="text" id="nombreEstudiante" placeholder="Sofia M">
+        <br>
+        <label for="consulta"> Consulta: </label>
+        <textarea id="consulta" name="consulta" placeholder="Tengo una duda con..."></textarea>
+        <br>
+        <button id="agregarButton">Agregar Consulta</button>
+    </div>
+
+    <table id="listaConsultas"> <!--Tabla que muestra las consultas que se agregan al sistema-->
+        <thead>
+            <tr>
+                <th>Usuario</th>
+                <th>Nombre del Estudiante</th>
+                <th>Consulta</th>
+                <th>Hora de Solicitud</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+
+    <a class="salir" href="../index.html">Salir</a>
+
+    <hr>
+    <!--footer-->
+    <footer>© 2025 sosoCodes. Todos los derechos reservados.</footer>
+
+    <!--SCRIPT-->
+    <script type="module" src="../main/main.js"></script>
+</body>
+</html>
